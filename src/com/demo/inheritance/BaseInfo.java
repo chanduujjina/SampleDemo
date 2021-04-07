@@ -1,8 +1,11 @@
 package com.demo.inheritance;
 
+import lombok.Builder;
+import lombok.Data;
 
+@Data
 
-
+@Builder
 public class BaseInfo {
 	
 
@@ -17,7 +20,7 @@ public class BaseInfo {
 	
 
 
-@Override
+/*@Override
 	public String toString() {
 		return "BaseInfo [employeeId=" + employeeId + ", employeeName=" + employeeName + ", gender=" + gender
 				+ ", address=" + address + "]";
@@ -56,6 +59,6 @@ protected BaseInfo(int employeeId, String employeeName, String gender, String ad
 			return address;
 		}
 
-	
+	*/
 
 }

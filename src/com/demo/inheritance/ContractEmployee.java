@@ -1,22 +1,20 @@
 package com.demo.inheritance;
 
-public class ContractEmployee extends BaseInfo{
-	
-	
-	
-    private String payRol;
-	
+public class ContractEmployee extends BaseInfo {
+
+	private String payRol;
+
 	private String payRolCompanydetails;
-	
+
 	private String contractEndDate;
-	
-	private String employeeStatus; 
-	
-	public ContractEmployee(int employeeId, String employeeName, String gender, String address, String payRol,
-			String payRolCompanydetails, String contractEndDate, String employeeStatus) {
-		
-		super(employeeId, employeeName, gender, address);
-		
+
+	private String employeeStatus;
+
+	public ContractEmployee(BaseInfo info, String payRol, String payRolCompanydetails, String contractEndDate,
+			String employeeStatus) {
+
+		super(info.getEmployeeId(), info.getEmployeeName(), info.getGender(), info.getAddress());
+
 		this.payRol = payRol;
 		this.payRolCompanydetails = payRolCompanydetails;
 		this.contractEndDate = contractEndDate;
@@ -44,7 +42,5 @@ public class ContractEmployee extends BaseInfo{
 		return "ContractEmployee [payRol=" + payRol + ", payRolCompanydetails=" + payRolCompanydetails
 				+ ", contractEndDate=" + contractEndDate + ", employeeStatus=" + employeeStatus + "]";
 	}
-
-	
 
 }

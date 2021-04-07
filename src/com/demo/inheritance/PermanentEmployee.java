@@ -15,15 +15,17 @@ public class PermanentEmployee extends BaseInfo{
 	private int noOfLeaves;
 	
 
-	public PermanentEmployee(int employeeId, String employeeName, String gender, String address, String bussinessUnit,
+	public PermanentEmployee(BaseInfo info, String bussinessUnit,
 			double salary, String joiningDate, String glomodetails, int noOfLeaves) {
+		super(info.getEmployeeId(), info.getEmployeeName(), info.getGender(), info.getAddress());
 		
-		super(employeeId, employeeName, gender, address);
 		this.bussinessUnit = bussinessUnit;
 		this.salary = salary;
 		this.joiningDate = joiningDate;
 		this.glomodetails = glomodetails;
 		this.noOfLeaves = noOfLeaves;
+		
+		
 	}
 
 	

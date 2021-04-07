@@ -95,9 +95,9 @@ Inheritance
 
 Polymorphism
 
-Encapusulation
+Encapusulation(Abstract,Interface)
 
-Abstraction
+
 
 Welcome Akshra
 
