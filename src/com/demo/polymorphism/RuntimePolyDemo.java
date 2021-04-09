@@ -17,9 +17,9 @@ public class RuntimePolyDemo {
 		
 		//System.out.println(parent1.getAssetDetails());
 		//Parent parent2 = new Child2();
-		Parent parent2 = getInstance("com.demo.polymorphism.Child2");
+		//Parent parent2 = getInstance("com.demo.polymorphism.Child2");
 		
-		System.out.println(parent2.getAssetDetails());
+		//System.out.println(parent2.getAssetDetails());
 	}
 	
 	private static Parent getInstance(String className) throws ClassNotFoundException, InstantiationException, IllegalAccessException {
