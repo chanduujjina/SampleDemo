@@ -102,3 +102,24 @@ Encapusulation(Abstract,Interface)
 Welcome Akshra
 
 Hi Akshsra
+
+
+encapsulation hiding data from outer world
+
+Abstraction class
+interface
+
+abstarct is a design that needs to follow by the implemented class
+
+
+simsize 3*4
+portability
+
+BaseProvider  
+
+iphone 11 is base 
+
+iphone 12 pro
+
+iphone 12 mini
+
