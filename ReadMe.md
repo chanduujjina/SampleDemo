@@ -123,3 +123,70 @@ iphone 12 pro
 
 iphone 12 mini
 
+
+what is an interface:
+
+interface Phone{
+String getStorageDetails()
+String getRamInfo()
+Configuration getConfiguration()
+
+}
+
+class Navigation{
+
+String buttonType;
+String action;
+}
+
+interface scooty{
+Navigation getNavigationButton();
+
+}
+
+Activa implements scooty{
+
+
+}
+
+public class parent1{
+//base featute
+  public void m1(){
+  
+  }
+  
+  public void m2(){
+  
+  }
+ 
+}
+
+public class parent2{
+ public void m1(){
+  
+  } 
+  
+   public void m2(){
+  
+  }
+  
+ public void m3(){
+ }
+}
+
+
+public Child extends parent1 ,parent2{
+
+//diiffrent implemetation
+public void  m1(){
+  
+  } 
+  
+ 
+  m3();
+  m2();
+}
+
+
+
+
